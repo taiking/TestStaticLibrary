@@ -10,4 +10,6 @@
 
 @interface TestStatic : NSObject
 
+- (void)testLog:(NSString *)str;
+
 @end

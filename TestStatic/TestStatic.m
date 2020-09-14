@@ -9,5 +9,7 @@
 #import "TestStatic.h"
 
 @implementation TestStatic
-
+- (void)testLog:(NSString *)str {
+    NSLog(@"%@", str);
+}
 @end
