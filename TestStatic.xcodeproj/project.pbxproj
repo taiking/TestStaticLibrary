@@ -28,6 +28,7 @@
 		861984502509F59D0048BAD0 /* libTestStatic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTestStatic.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		861984532509F59D0048BAD0 /* TestStatic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestStatic.h; sourceTree = "<group>"; };
 		861984542509F59D0048BAD0 /* TestStatic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestStatic.m; sourceTree = "<group>"; };
+		86846838250F69AE00F7356D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +63,7 @@
 			children = (
 				861984532509F59D0048BAD0 /* TestStatic.h */,
 				861984542509F59D0048BAD0 /* TestStatic.m */,
+				86846838250F69AE00F7356D /* Info.plist */,
 			);
 			path = TestStatic;
 			sourceTree = "<group>";
