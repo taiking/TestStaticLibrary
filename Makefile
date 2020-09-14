@@ -33,6 +33,8 @@ build-framework:
 
 
 merge:
+	# xcode12のcarthage buildは内部的にここでバグってる
+	# ref https://github.com/Carthage/Carthage/issues/3019
 	lipo -output build/libTestStatic.a -create build/Release-iphoneos/libTestStatic.a build/Release-iphonesimulator/libTestStatic.a
 
 clean:
